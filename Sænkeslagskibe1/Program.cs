@@ -9,7 +9,7 @@ namespace Sænkeslagskibe1
             PlayerOne p1 = new PlayerOne();
             PlayerTwo p2 = new PlayerTwo();
 
-            while (p1.playerLife > 0 || p2.playerLife > 0)
+            while (p1.playerlife > 0 || p2.playerlife > 0)
             {
                 // Runs the game and ask player for input
                 Console.WriteLine("Take your shot");
